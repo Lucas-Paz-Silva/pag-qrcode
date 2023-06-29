@@ -1,0 +1,63 @@
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+      
+      body {
+        background-color: hsl(212, 45%, 89%);
+      }
+
+      .retangulo {
+        width: 350px;
+        height: 550px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+      }
+
+      .retangulo img {
+        max-width: calc(100% - 0px);
+        max-height: calc(100% - 20px);
+        border-radius: 10px;
+      }
+
+      .retangulo p {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: hsl(220, 15%, 55%);
+        margin-top: 10px;
+        line-height: 1.5em;
+        text-align: center
+      }
+
+      .retangulo h1 {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: hsl(218, 44%, 22%);
+        margin-top: 10px;
+        line-height: 1.5em;
+        text-align: center
+      }
+
+      .botoes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      
+      .botao {
+        width: calc(50% - 5px);
+        height: 40px;
+        background-color: hsl(220, 15%, 55%);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .botao:first-child {
+        margin-right: 10px;
+      }
